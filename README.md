@@ -5,7 +5,7 @@
 ## Installation with CocoaPods
 
 ```
-pod 'MXLinkLabel', '~> 1.0.4;
+pod 'MXLinkLabel', '~> 1.0.4';
 ```
 
 ## Usage
