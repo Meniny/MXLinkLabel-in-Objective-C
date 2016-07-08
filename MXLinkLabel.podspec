@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Meniny/MXLinkLabel-in-Objective-C.git", :commit => "1164d63d54447259a9f25c7eda91e2cfc913ff23" }
+  s.source       = { :git => "https://github.com/Meniny/MXLinkLabel-in-Objective-C.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
