@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MXLinkLabel"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "An easy-to-use view to display markup text."
 
   # This description is used to generate tags and improve search results.
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundaion", "UIKit"
+  s.frameworks = "Foundation", "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
