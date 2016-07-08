@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C658B701D2F505600BCA4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B6F1D2F505600BCA4AE /* main.m */; };
+		5C658B731D2F505600BCA4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B721D2F505600BCA4AE /* AppDelegate.m */; };
+		5C658B761D2F505600BCA4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B751D2F505600BCA4AE /* ViewController.m */; };
+		5C658B791D2F505600BCA4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C658B771D2F505600BCA4AE /* Main.storyboard */; };
+		5C658B7B1D2F505600BCA4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C658B7A1D2F505600BCA4AE /* Assets.xcassets */; };
+		5C658B7E1D2F505600BCA4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C658B7C1D2F505600BCA4AE /* LaunchScreen.storyboard */; };
+		5C658B881D2F507700BCA4AE /* MXLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C658B871D2F507700BCA4AE /* MXLinkLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C658B6B1D2F505600BCA4AE /* MXLinkLabel-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MXLinkLabel-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C658B6F1D2F505600BCA4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C658B711D2F505600BCA4AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C658B721D2F505600BCA4AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C658B741D2F505600BCA4AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C658B751D2F505600BCA4AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C658B781D2F505600BCA4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C658B7A1D2F505600BCA4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C658B7D1D2F505600BCA4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C658B7F1D2F505600BCA4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C658B861D2F507700BCA4AE /* MXLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXLinkLabel.h; sourceTree = "<group>"; };
+		5C658B871D2F507700BCA4AE /* MXLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXLinkLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C658B681D2F505600BCA4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C658B621D2F505600BCA4AE = {
+			isa = PBXGroup;
+			children = (
+				5C658B6D1D2F505600BCA4AE /* MXLinkLabel-Demo */,
+				5C658B6C1D2F505600BCA4AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C658B6C1D2F505600BCA4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C658B6B1D2F505600BCA4AE /* MXLinkLabel-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C658B6D1D2F505600BCA4AE /* MXLinkLabel-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5C658B851D2F507700BCA4AE /* MXLinkLabel */,
+				5C658B711D2F505600BCA4AE /* AppDelegate.h */,
+				5C658B721D2F505600BCA4AE /* AppDelegate.m */,
+				5C658B741D2F505600BCA4AE /* ViewController.h */,
+				5C658B751D2F505600BCA4AE /* ViewController.m */,
+				5C658B771D2F505600BCA4AE /* Main.storyboard */,
+				5C658B7A1D2F505600BCA4AE /* Assets.xcassets */,
+				5C658B7C1D2F505600BCA4AE /* LaunchScreen.storyboard */,
+				5C658B7F1D2F505600BCA4AE /* Info.plist */,
+				5C658B6E1D2F505600BCA4AE /* Supporting Files */,
+			);
+			path = "MXLinkLabel-Demo";
+			sourceTree = "<group>";
+		};
+		5C658B6E1D2F505600BCA4AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C658B6F1D2F505600BCA4AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C658B851D2F507700BCA4AE /* MXLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5C658B861D2F507700BCA4AE /* MXLinkLabel.h */,
+				5C658B871D2F507700BCA4AE /* MXLinkLabel.m */,
+			);
+			name = MXLinkLabel;
+			path = ../../MXLinkLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C658B6A1D2F505600BCA4AE /* MXLinkLabel-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C658B821D2F505600BCA4AE /* Build configuration list for PBXNativeTarget "MXLinkLabel-Demo" */;
+			buildPhases = (
+				5C658B671D2F505600BCA4AE /* Sources */,
+				5C658B681D2F505600BCA4AE /* Frameworks */,
+				5C658B691D2F505600BCA4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MXLinkLabel-Demo";
+			productName = "MXLinkLabel-Demo";
+			productReference = 5C658B6B1D2F505600BCA4AE /* MXLinkLabel-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C658B631D2F505600BCA4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Meniny;
+				TargetAttributes = {
+					5C658B6A1D2F505600BCA4AE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C658B661D2F505600BCA4AE /* Build configuration list for PBXProject "MXLinkLabel-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C658B621D2F505600BCA4AE;
+			productRefGroup = 5C658B6C1D2F505600BCA4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C658B6A1D2F505600BCA4AE /* MXLinkLabel-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C658B691D2F505600BCA4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C658B7E1D2F505600BCA4AE /* LaunchScreen.storyboard in Resources */,
+				5C658B7B1D2F505600BCA4AE /* Assets.xcassets in Resources */,
+				5C658B791D2F505600BCA4AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C658B671D2F505600BCA4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C658B761D2F505600BCA4AE /* ViewController.m in Sources */,
+				5C658B731D2F505600BCA4AE /* AppDelegate.m in Sources */,
+				5C658B701D2F505600BCA4AE /* main.m in Sources */,
+				5C658B881D2F507700BCA4AE /* MXLinkLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C658B771D2F505600BCA4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C658B781D2F505600BCA4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C658B7C1D2F505600BCA4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C658B7D1D2F505600BCA4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C658B801D2F505600BCA4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C658B811D2F505600BCA4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C658B831D2F505600BCA4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MXLinkLabel-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.MXLinkLabel-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C658B841D2F505600BCA4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MXLinkLabel-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.MXLinkLabel-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C658B661D2F505600BCA4AE /* Build configuration list for PBXProject "MXLinkLabel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C658B801D2F505600BCA4AE /* Debug */,
+				5C658B811D2F505600BCA4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C658B821D2F505600BCA4AE /* Build configuration list for PBXNativeTarget "MXLinkLabel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C658B831D2F505600BCA4AE /* Debug */,
+				5C658B841D2F505600BCA4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C658B631D2F505600BCA4AE /* Project object */;
+}
